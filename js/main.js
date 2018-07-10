@@ -132,7 +132,7 @@ if ( Detector.webgl ) { // HAS WEB GL
         light.position.set(0, 1, 0);
         scene.add(light);
 
-        var alight = new THREE.AmbientLight(0xffffff); // soft white light
+        var alight = new THREE.AmbientLight(0xffffff);
         scene.add(alight);
 
 
@@ -147,7 +147,38 @@ if ( Detector.webgl ) { // HAS WEB GL
             var egg = gltf.scene;
 
             // ADD SHAPES
-            for (var i = 0; i < NUMITEMS; i++) {
+            for (var i = 0; i < NUMITEMS - 1; i++) {
+              var newCircle = egg.clone();
+              newCircle.position.x = Math.random() * POSITION_LIMIT - (POSITION_LIMIT / 2);
+              newCircle.position.y = Math.random() * POSITION_LIMIT - (POSITION_LIMIT / 2);
+              newCircle.position.z = Math.random() * POSITION_LIMIT - (POSITION_LIMIT / 2);
+              newCircle.scale.x = newCircle.scale.y = newCircle.scale.z = 100 + Math.random() * 250;
+              scene.add(newCircle);
+              spheres.push(newCircle);
+              sphereRotations.push({
+                x: Math.random() * 0.03,
+                y: Math.random() * 0.03,
+                z: Math.random() * 0.03
+              })
+            }
+          },
+          function (xhr) {
+            console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+          },
+          function (error) {
+            console.log('An error happened');
+          }
+        );
+
+        loader2.load(
+          'egg4/scene.gltf',
+          function (gltf) {
+            scene.add(gltf.scene);
+            console.log(gltf);
+            var egg = gltf.scene;
+
+            // ADD SHAPES
+            for (var i = 1; i < 2; i++) {
               var newCircle = egg.clone();
               newCircle.position.x = Math.random() * POSITION_LIMIT - (POSITION_LIMIT / 2);
               newCircle.position.y = Math.random() * POSITION_LIMIT - (POSITION_LIMIT / 2);
@@ -286,7 +317,7 @@ function animate() {
 }
 function render() {
   // MOVEMENT SPEED
-  var timer = 0.00015 * Date.now();
+  var timer = 0.0003 * Date.now();
 
   // FADE IN SPEED
   if (material.opacity < 1) {
@@ -297,8 +328,8 @@ function render() {
   for ( var i = 0, il = spheres.length; i < il; i ++ ) {
     var sphere = spheres[ i ];
     var sphereRotation = sphereRotations[i];
-    sphere.position.x = (POSITION_LIMIT/2) * Math.cos( timer + i );
-    sphere.position.y = (POSITION_LIMIT/2) * Math.sin( timer + i * 1.1 );
+    sphere.position.x = (POSITION_LIMIT/2) * Math.cos( timer / 2 + i);
+    sphere.position.y = (POSITION_LIMIT/2) * Math.sin( timer / 2 + i * 1.1 );
     sphere.rotation.x += sphereRotation.x;
     sphere.rotation.y += sphereRotation.y;
     sphere.rotation.z += sphereRotation.z;
