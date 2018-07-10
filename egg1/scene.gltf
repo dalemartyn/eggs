@@ -1,0 +1,275 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 176,
+      "max": [
+        0.0020399254281073809,
+        0.002019926905632019,
+        -7.0750711529399268e-06
+      ],
+      "min": [
+        -0.0020346278324723244,
+        -0.0020546263549476862,
+        -0.0051805865950882435
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2112,
+      "componentType": 5126,
+      "count": 176,
+      "max": [
+        0.9225543737411499,
+        0.92270451784133911,
+        0.9604225754737854
+      ],
+      "min": [
+        -0.9225543737411499,
+        -0.9225543737411499,
+        -0.91293686628341675
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 176,
+      "max": [
+        1,
+        0,
+        -0,
+        1
+      ],
+      "min": [
+        1,
+        0,
+        -0,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 240,
+      "max": [
+        175
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "blujay (https://sketchfab.com/blujay)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/models/120e7f2d5adc45199d6b1faf7da797da",
+      "title": "lowpoly egg"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 960,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4224,
+      "byteOffset": 960,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2816,
+      "byteOffset": 5184,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8000,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        0.5329801829352,
+        0.45541758956507938,
+        0.309599056788399
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.58185975607999996,
+            0.50929166195109254,
+            0.37747715280872934,
+            1
+          ],
+          "glossinessFactor": 0,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "Material.001"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Correction matrix"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -1,
+        0,
+        -8.7422776573475858e-08,
+        0,
+        0,
+        1,
+        0,
+        0,
+        8.7422776573475858e-08,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "UnityGlTF_correctionMatrix_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        -9.8643999099731445,
+        -47.522579193115234,
+        -87.431930541992188,
+        0,
+        -1.4768069982528687,
+        -87.780998229980469,
+        47.878929138183594,
+        0,
+        -99.501533508300781,
+        6.0141429901123047,
+        7.9572129249572754,
+        0,
+        4.6701231002807617,
+        5.9999990463256836,
+        6.4038262367248535,
+        1
+      ],
+      "name": "node_egg-chicken_(5)_-256036_1"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

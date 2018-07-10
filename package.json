@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0"
+  },
+  "dependencies": {
+    "three": "^0.94.0"
+  }
+}

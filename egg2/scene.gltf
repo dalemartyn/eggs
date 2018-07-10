@@ -1,0 +1,327 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        21.432815551757812,
+        22.063287734985352,
+        -31.528900146484375
+      ],
+      "min": [
+        -23.655794143676758,
+        -22.760934829711914,
+        -89.871345520019531
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786396,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.99999803304672241,
+        0.99247735738754272,
+        0.99640905857086182
+      ],
+      "min": [
+        -0.99996411800384521,
+        -0.9999883770942688,
+        -0.99992364645004272
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.99999099969863892,
+        0.99996346235275269,
+        0.99999910593032837,
+        1
+      ],
+      "min": [
+        -0.99991750717163086,
+        -0.9999920129776001,
+        -0.99645429849624634,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.99902302026748657,
+        0.99188202619552612
+      ],
+      "min": [
+        0.00097699998877942562,
+        0.00048799999058246613
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 101925,
+      "max": [
+        65532
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572792,
+      "componentType": 5126,
+      "count": 12916,
+      "max": [
+        17.996212005615234,
+        22.33607292175293,
+        -31.47869873046875
+      ],
+      "min": [
+        -13.888447761535645,
+        -4.8415489196777344,
+        -67.536705017089844
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1727784,
+      "componentType": 5126,
+      "count": 12916,
+      "max": [
+        0.87445336580276489,
+        0.99990195035934448,
+        0.99993604421615601
+      ],
+      "min": [
+        -0.64232724905014038,
+        -0.26173800230026245,
+        -0.15824389457702637
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048528,
+      "componentType": 5126,
+      "count": 12916,
+      "max": [
+        0.99999111890792847,
+        0.99994480609893799,
+        0.99985414743423462,
+        1
+      ],
+      "min": [
+        -0.99955785274505615,
+        -0.98926061391830444,
+        -0.99686217308044434,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524264,
+      "componentType": 5126,
+      "count": 12916,
+      "max": [
+        0.99902302026748657,
+        0.98678499460220337
+      ],
+      "min": [
+        0.00097699998877942562,
+        0.0083010001108050346
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 407700,
+      "componentType": 5125,
+      "count": 19023,
+      "max": [
+        12915
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "viae (https://sketchfab.com/viae)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/04c322d857504a80983d4bf4f4b56ba9",
+      "title": "Egg"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 483792,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 627592,
+      "byteOffset": 483792,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1882776,
+      "byteOffset": 1111384,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1255184,
+      "byteOffset": 2994160,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4249344,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Family_01_S1andFamily_01_S3andFamily_01_S4andFamily_01_S5andFamily_01_S6andFamily_01_S7andFamily_01_S8andFamily_01_S9andFamily_02_S1andFamily_03_S1andFamily_04_S1andFamily_05_S1_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Family_01_S1andFamily_01_S3andFamily_01_S4andFamily_01_S5andFamily_01_S6andFamily_01_S7andFamily_01_S8andFamily_01_S9andFamily_02_S1andFamily_03_S1andFamily_04_S1andFamily_05_S1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "egg.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
